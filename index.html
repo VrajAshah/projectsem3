@@ -51,7 +51,8 @@
         }
 
         li>a:hover {
-            border-bottom: 2px solid chocolate;
+            /* border-bottom: 2px solid chocolate; */
+            color: aliceblue !important;
             /* color:red !important; */
             /* line-height: 60; */
 
@@ -61,23 +62,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
-            <span class="navbar-toggler-icon"> </span>
-        </button>
-        <div class="container-fluid" id="nav">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a href="#Home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item "><a href="#Gallery" class="nav-link">Gallery</a></li>
-                <li class="nav-item"><a href="#Menu" class="nav-link ">Menu</a></li>
-                <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="#AbouUs" class="nav-link">About Us</a></li>
-
-
-
-            </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#link">
+                <span class="navbar-toggler-icon btn-white">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="link">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
