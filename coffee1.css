@@ -1,0 +1,40 @@
+.header {
+    background-image: url("b.jpg");
+    height: 70vh;
+    width: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 15%;
+}
+
+.text {
+    color: rgb(252, 253, 255);
+    font-size: 3vh;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.text1 {
+    font-size:5vh;
+}
+
+nav {
+    background-color: transparent !important;
+    
+    color: aliceblue;
+}
+.p-1{
+    padding-top: 1.7vh !important;
+    font-size: 1.5vw;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+
+}
+.logo{
+    padding-top: 1.5vh !important;
+}
