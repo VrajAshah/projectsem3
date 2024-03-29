@@ -20,6 +20,10 @@
     display: flex;
     justify-content: space-around;
 }
+.nav_content a{
+    text-decoration: none;
+    color: white;
+}
 
 .welcome {
     position: absolute;
