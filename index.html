@@ -41,6 +41,24 @@
             justify-content: right;
             align-items: right;
         }
+        .aboutus{
+        padding: 90px;
+    }
+.aboutus ul{
+color: antiquewhite;
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.aboutus ul li a{
+font-weight: lighter;
+font-family: serif;
+font-size: 18px;
+text-decoration: none;
+color: antiquewhite;
+/* padding-top: 50px; */
+
+}
         </style>
     </head>
     <body>
@@ -263,34 +281,33 @@
             </div>
 
         </div>
-        <div class="cour d-flex justify-content-between" style=" background-color:rgb(230, 227, 181);width: 100%; height:15vh">
-            <div class="p-1">
-                <img src="clour1.png" style="height:15vh; width:15vw" alt="">
+        <div class="cour d-flex justify-content-between" style=" background-color:rgb(248, 248, 233);width: 100%; height:25vh">
+            <div>
+                <img src="coffeehand-removebg-preview.png" style="height:35vh; width:200px" alt="">
             </div>
-            <div class="p-1">
+            <div class="p-2 coffeeimg" style="width: 300px;height: 25vh;">
                 <p
-                    class="text"
-                    style="color: rgb(63, 17, 17);"
-                    Check
+                    class="text-center">Check
                     Out
                     Our
                     Best
-                    Coffee!!
-                ></p>
-                <button type="button" class="btn btn-dark" style="background-color: rgb(63, 17, 17); color:antiquewhite;">
-                Explore now&gt;&gt;&gt;
-                </button>
+                    Coffee Beans
+                <button type="button" class="btn btn-dark text-center" style="background-color: rgb(63, 17, 17); color:antiquewhite;border-radius: 20px;">
+                Explore now&gt;&gt;
+                </button></p>
             </div>
-            <div class="p1">
-                <img src="cold-coffee-icon.webp" alt="" style="width: 5vw; height: 15vh;">
+            <div>
+                <img src="coffeeinscoop.png" alt="" style="width: 200px; height: 25vh;background-color: transparent;">
             </div>
         </div>
-        <div class="customer"><p><i>Come and Join</i></p>
-            <p><b>Our Happy Customers!</b></p></div>
         
-        <!-- customer reviews -->
-        </div>
-        <div style="width: 100%; margin: auto;">
+    </div>
+    <!-- customer reviews -->
+        <div style="width: 100%;margin-bottom: 40px;margin-top: 30px;border-bottom: #d2cdcd solid 1px;border-top: #d2cdcd solid 1px;" >
+            <div class="join">
+                <i>𝓒𝓸𝓶𝓮 𝓪𝓷𝓭 𝓙𝓸𝓲𝓷</i></div>
+               <div class="customer"><b>OUR HAPPY CUSTOMERS</b></div>
+
         <section class="home">
             <div class="swiper-container home-slider">
                 <div class="swiper-wrapper">
@@ -356,7 +373,7 @@
                 stretch: 0,
                 depth: 40,
                 modifier: 2,
-                slideShadows: true,
+                slideShadows: false,
             },
             loop: true,
             autoplay: {
@@ -369,5 +386,67 @@
             },
         });
     </script>
+
+
+    <div class="conatiner d-flex justify-content-between about" style=" background-color:rgb(248, 248, 233);width:100vw;height:25vh;">
+        <div style="width: 15vw;">
+            <img src="coffeebeans1.png" alt="" style="width:120px; height: 25vh;">
+        </div>
+        
+        <div class="text-center" style="text-align: center;width: 70vw;padding: 30px;">
+           <p><b>Join in and get 15% off</b></p> 
+            <form action="">
+               <label for=""> <input type="text" placeholder=" Email Address" style="border: 2px solid transparent; border-radius: 20px;width: 30vw;padding: 5px;"></label>
+               <input type="submit" value="Subscribe" style="border: 2px solid; border-radius: 20px; background-color: rgb(32, 14, 14);color: white;padding: 5px;width: 15vw;max-width: fit-content;">
+            </form>
+        
+        </div>
+        <div class="p1" style="width: 15vw;">
+            <img src="coffeeBeans2.png" alt="" style="width:15vw; height: 25vh;">
+        </div>
+    </div>
+ <div class="row aboutus" style="background-color: rgb(32, 14, 14); width: 100%;height:45vh;">
+    <div class="col">
+        <ul><p>COFFEE</p></ul>
+    </div>
+    <div class="col">
+        <ul type="none">PRIVACY
+            <li><a href="#">Term of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies</a></li>
+        </ul>
+        
+    </div>
+    <div class="col">
+        <ul type="none">SERVICES
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Order Policy</a></li>
+            <li><a href="#">Menu</a></li>
+        </ul>
+        
+    </div>
+    <div class="col">
+        <ul type="none">ABOUT US
+            <li><a href="#">Find a Location</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Story</a></li>
+        </ul>
+    </div>
+        <div class="col">
+            <ul type="none">INFORMATION
+                <li><a href="#">Send Your Product</a></li>
+                <li><a href="#">Term of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul type="none">SOCIAL MEDIA
+                <li><a href="#"><img src="logos-removebg-preview (1).png" alt="" style="height: 10vh;width: 130px;"></a></li>
+        
+            </ul>
+            
+        </div>
+    </div>
+ </div>
     </body>
 </html>
